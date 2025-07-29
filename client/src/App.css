@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.field-info-con
+  {
+    font-size: 14px;
+    
+  }
+  .field-lab
+  {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .field-lab
+  {
+    line-height: 2.5;
+  }
+  .field-lab-w-40
+  {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .field-lab-w-35
+  {
+    display: inline-block;
+    width: 38%;
+  }
+  .loader-container
+  {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-header
+  {
+    border-bottom:none !important
+  }
+  .modal-title
+  {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+  }
+  .modal-footer
+  {
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+    margin-top: 10px;
+    border-top:none !important
+  }
+  .dropdown-item
+  {
+    font-weight: 500;
+  }
+
+  textarea{
+    resize: none;
+  }
+
+  .nav-link
+  {
+    color:#f1f1f1 !important;
+    font-size: 15.5px; 
+  }
+  .navbar-nav{
+    margin-left: 15px;
+  }
+
+  .form-input-error
+  {
+    border-color: red;
+  }
+  .form-label-error
+  {
+    font-size: 13px;
+    font-weight: 500;
+    color: red;
+  }
+
